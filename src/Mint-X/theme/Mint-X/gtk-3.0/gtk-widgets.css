@@ -1297,10 +1297,10 @@ notebook.frame > header {
     margin: -1px;
 }
 
-/*notebook.frame > header > tabs {
+notebook.frame > header > tabs {
     margin: 0px;
     margin-right: -2px;
-}*/
+}
 
 notebook.frame > header.top {
     margin-bottom: 0;
