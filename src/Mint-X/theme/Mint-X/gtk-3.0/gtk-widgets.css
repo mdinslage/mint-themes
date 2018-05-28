@@ -697,22 +697,22 @@ filechooser #pathbarbox {
 
 filechooser #pathbarbox:dir(ltr) {
 	border: none;
-
 }
+
 filechooser #pathbarbox:dir(rtl) {
-	border: none;
+    border: none;
 }
 
 filechooser placessidebar.sidebar {
-     border: 1px solid @border;
+    border: 1px solid @border;
 }
 
 filechooser placessidebar.sidebar:dir(ltr) {
-     border: 1px solid @border;
+    border: 1px solid @border;
 }
 
 filechooser placessidebar.sidebar:dir(rtl) {
-     border: 1px solid @border;
+    border: 1px solid @border;
 }
 
 /************
