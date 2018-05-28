@@ -678,6 +678,43 @@ actionbar > revealer > box {
     border-width: 1px 0 0;
 }
 
+/***************
+ * Filechooser *
+ ***************/
+
+filechooser  > actionbar {
+    border-width: 0px 1px 1px 1px;
+}
+
+filechooser stack scrolledwindow {
+    border: 1px solid @border;
+    border-radius: 0px;
+}
+
+filechooser #pathbarbox {
+    border: none;
+}
+
+filechooser #pathbarbox:dir(ltr) {
+	border: none;
+
+}
+filechooser #pathbarbox:dir(rtl) {
+	border: none;
+}
+
+filechooser placessidebar.sidebar {
+     border: 1px solid @border;
+}
+
+filechooser placessidebar.sidebar:dir(ltr) {
+     border: 1px solid @border;
+}
+
+filechooser placessidebar.sidebar:dir(rtl) {
+     border: 1px solid @border;
+}
+
 /************
  * gtkstyle *
  ************/
