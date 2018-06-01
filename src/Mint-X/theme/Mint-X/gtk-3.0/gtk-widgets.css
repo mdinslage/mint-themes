@@ -599,6 +599,30 @@ expander arrow:checked {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 
+/***************
+ * Filechooser *
+ ***************/
+
+filechooser #pathbarbox {
+    background-color: @theme_bg_color;
+    border-bottom: none;
+}
+
+filechooser  > actionbar {
+    border-width: 0px 1px 1px 1px;
+}
+
+filechooser stack scrolledwindow {
+    border: 1px solid @border;
+    border-radius: 0px;
+}
+
+filechooser placessidebar.sidebar,
+filechooser placessidebar.sidebar:dir(ltr),
+filechooser placessidebar.sidebar:dir(rtl) {
+     border: 1px solid @border;
+}
+
 /****************
  * floating bar *
  ****************/
@@ -676,31 +700,6 @@ statusbar frame > border {
 actionbar > revealer > box {
     padding: 4px;
     border-width: 1px 0 0;
-}
-
-/***************
- * Filechooser *
- ***************/
-
-filechooser  > actionbar {
-    border-width: 0px 1px 1px 1px;
-}
-
-filechooser stack scrolledwindow {
-    border: 1px solid @border;
-    border-radius: 0px;
-}
-
-filechooser #pathbarbox,
-filechooser #pathbarbox:dir(ltr),
-filechooser #pathbarbox:dir(rtl) {
-    border: none;
-}
-
-filechooser placessidebar.sidebar,
-filechooser placessidebar.sidebar:dir(ltr),
-filechooser placessidebar.sidebar:dir(rtl) {
-     border: 1px solid @border;
 }
 
 /************

@@ -9,14 +9,6 @@
                             @toolbar_bg_a,
                             @toolbar_bg_b);
 }
-/******************
- * GtkFileChooser *
- ******************/
-
-filechooser #pathbarbox {
-    background-color: @theme_bg_color;
-    border-bottom: 1px solid @border;
-}
 
 /************
  * terminal *
